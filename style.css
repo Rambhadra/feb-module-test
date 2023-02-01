@@ -1,0 +1,133 @@
+
+
+
+.section-padding{
+    padding: 100px 0;
+}
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+.carousel-caption{
+    bottom: 220px;
+    z-index: 2;
+}
+.mb-3{
+    width: 22rem;
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+    border: 5px;
+}
+.card-group{
+    justify-content: space-between;
+    padding: 25px;
+    
+}
+.card-img-top{
+    width: 30px;
+    height: 250px;
+}
+.btn{
+    background-color: blue;
+}
+.mfg{
+    background-color: rgba(35, 35, 247, 0.797);
+    color: white;
+    width: 120px;
+    font-weight: 600;
+    border: none;
+}
+.ct1{
+    width: 47.6vw;
+}
+.ct2{
+    width: 48vw;
+}
+.ct3{
+    width: 96vw;
+}
+.ct4{
+    width: 96vw;
+}
+.ct5{
+    width:96vw ;
+}
+.strp{
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+.form-boot-2{
+    padding: 10px;
+    margin-left: -6px;
+}
+.form-boot-3{
+    padding: 10px;
+    margin-left: -6px;
+}
+.form-boot-4{
+    padding: 10px;
+    margin-left: -6px;
+}
+.button{
+    padding: 5px;
+}
+.hgv{
+    text-decoration: none;
+}
+
+.accordion{
+    border: 1px solid ;
+    padding: 5px;
+    margin: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.card-group{
+    border: 1px solid ;
+}
+
+@media only screen and (max-width: 1140px){
+    .carousel slide{
+        width: 100%;
+    }
+    .card-group{
+        width: 100%;
+
+    }
+    .accordion accordion-flush{
+        width: 100%;
+
+    }
+    .table{
+        width: 100%;
+
+    }
+    .strp{
+        width: 100%;
+
+    }
+}
+@media only screen and (max-width: 400px){
+    .carousel slide{
+        width: 100%;
+    }
+    .card-group{
+        width: 100%;
+
+    }
+    .accordion accordion-flush{
+        width: 100%;
+
+    }
+    .table{
+        width: 100%;
+
+    }
+    .strp{
+        width: 100%;
+
+    }
+}
